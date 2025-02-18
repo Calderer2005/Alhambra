@@ -5,7 +5,7 @@
     box-sizing: border-box;
     font-family: EB Garamond;
 }
-h1,h2,h3,h4,h5,h6{
+h1,h2,h3,h4,h5,h6,nav a{
     font-family: Cormorant Garamond;
 }
 header{
@@ -23,7 +23,6 @@ img{
     justify-content: space-between;
     align-items: center;
 }
-
 .nav__toggle {
     display: none;
     max-width: 45px;
@@ -38,20 +37,93 @@ img{
     display: inline-block;
     transition: 0.2s ease;
 }
-
 .menu__item a {
     color: #1b1b1b;
     text-decoration: none;
     cursor: pointer;
 }
-
 .menu__item a:hover {
     transition: 0.2s ease;
     color: #ad0505;
 }
-
-
-
+/* granada */
+#menuGR{
+    background-image: url(./FOTOS/Granada1.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#menuGR h1{
+    color: #f4f1e1;
+    font-size: 5rem
+}
+#menuGR h1 span{
+    color: ;
+    display: block;
+    margin-bottom: 10px;
+}
+#gr2{
+    background-color: #f4f1e1;
+    display: flex;
+    flex-direction: row;
+}
+/* footer */
+footer{
+    background-image: url(./FOTOS/Sin\ título.png);
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+}
+#ft1{
+    display: flex;
+    flex-direction: column;
+}
+#ft1-1 a{
+    text-decoration: none;
+    color: #f4f1e1;
+}
+#ft1:after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #c2b280;
+    margin: 1% 0;
+}
+#ft1-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#ft1-1>ul{
+    list-style: none;
+}
+#ft1-1 h2{
+    color: #c2b280;
+}
+#ft1-1 h2:after{
+    content: "";
+    display: block;
+    width: 80px;
+    height: 2px;
+    background-color: #c2b280;
+    margin-bottom: 5%;
+}
+#redes{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-evenly;
+    width: 30%;
+    margin: 0 auto;
+}
+#ft2{
+    text-align: center;
+    color: #f4f1e1;
+}
+/* responsive */
 @media screen and (max-width: 768px) {
     .nav {
         transition: 0.3s ease;
@@ -158,7 +230,6 @@ img{
         transform: translateY(-12px) rotate(-45deg);
     }
 }
-
 @keyframes showMenuItems {
     0% {
         opacity: 0;
