@@ -46,6 +46,13 @@ img{
     transition: 0.2s ease;
     color: #ad0505;
 }
+.boton{
+    text-decoration: none;
+    background-color: #800000a6;
+    color: #f4f1e1;
+    border-radius: 15px;
+    padding: 5px;
+}
 /* granada */
 #menuGR{
     background-image: url(./FOTOS/Granada1.jpg);
@@ -81,7 +88,7 @@ img{
 #gr3{
     background-color: #f4f1e1;
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
     color: #3b3b3b;
 }
 #gr3>div{
@@ -93,13 +100,13 @@ img{
     text-align: center;
 }
 #gr3-2{ 
-    padding: 5%;
+    padding: 2%;
 }
 #gr3-2>div{
     list-style: none;
     color: #f4f1e1;
     background-color: #800000a8;
-    padding: 10px;
+    padding: 3%;
     border-radius: 15px ;
     font-size: 1.8rem;
 }
@@ -133,12 +140,7 @@ img{
     padding: 10px 0;
 }
 #al1>div>a{
-    text-decoration: none;
-    background-color: #8000008a;
-    color: #f4f1e1;
     font-size: 2rem;
-    padding: 5px;
-    border-radius: 15px;
 }
 #al2{
     background-color: #f4f1e1;
@@ -151,6 +153,68 @@ img{
     width: 30%;
     text-align: center;
 }
+#al2:nth-child(2){
+    font-size: 1.6rem;
+}
+
+#al2 p{
+    margin: 10% 0 10% 0
+}
+#al2 img{
+    border-radius: 15px;
+}
+/* Sierra Nevada */
+#sn1{
+    background-image: url(./FOTOS/sierra-nevada.jpeg);
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    flex-flow: wrap row;
+}
+#sn1-1{
+    width: 70%;
+    height: 100%;
+    background-color: #f4f1e188;
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap column;
+    padding: 5%;
+    font-size: 3rem;
+    color: #3b3b3b;
+}
+#sn1-1 a{
+    margin-top: 5%;
+    text-decoration: none;
+    color: #f4f1e1;
+    background-color: #556b2f65;
+    padding: 2%;
+    text-align: center;
+    border-radius: 15px;
+}
+#sn1-1 a:hover{
+    background-color: #c2b2807c;
+}
+#sn1-2{
+    width: 30%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+.hov{
+    padding: 5%;
+    background-color: #c2b28091;
+    width: 60%;
+    text-align: center;
+    text-decoration: none;
+    margin: 5%;
+    color: #f4f1e1;
+    border-radius: 20px;
+}
+.hov:hover{
+    background-color: #556b2f65;
+}
+
 /* footer */
 footer{
     background-image: url(./FOTOS/Sin\ título.png);
