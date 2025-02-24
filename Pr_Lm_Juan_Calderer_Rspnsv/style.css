@@ -162,9 +162,6 @@ img{
 #al2 p{
     margin: 10% 0 10% 0
 }
-#al2 img{
-    border-radius: 15px;
-}
 #al3{
     background-color: #f4f1e1;
     display: flex;
@@ -174,9 +171,6 @@ img{
 }
 #al3>div{
     width: 50%;
-}
-#al3 img{
-    border-radius:15px;
 }
 #txt-al3{
     display: flex;
@@ -364,6 +358,68 @@ img{
     width: 80%;
     margin: auto;
 }
+/* Reyes catolicos */
+#rc1{
+    display: flex;
+    flex-direction: row;
+    background-color: #f4f1e1;
+}
+#rc1-1{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 5%;
+}
+#rc1-1 h1{
+    font-size: 3rem;
+    color: #3b3b3b;
+}
+#rc2{
+    background-color: #f4f1e1;
+    padding: 3%;
+}
+#rc2 > div{
+    width: 80%;
+    margin: auto;
+    background-color: #80000041;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#rc2>div>div{
+    width: 50%;
+    text-align: center;
+    color: #3b3b3b;
+}
+#rc2 img{
+    padding: 3%;
+}
+#rc2 h2{
+    font-size: 2rem;
+}
+#rc2 p{
+    font-size: 1.5rem;
+}
+#rc2 h2:after{
+    content: "";
+    display: block;
+    width: 80%;
+    margin: auto;
+    height: 2px;
+    background-color: #f4f1e1;
+    margin-bottom: 2%;
+}
+#rc3{
+    background-image: url(./FOTOS/rc3.jpg);
+    background-size: cover ;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+}
+
+#rc3>div{
+    text-align: center;
+}
 
 /* footer */
 footer{
@@ -419,6 +475,8 @@ footer{
     text-align: center;
     color: #f4f1e1;
 }
+
+
 /* responsive */
 @media screen and (max-width: 768px) {
     .nav {
