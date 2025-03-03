@@ -1,296 +1,274 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sierra Nevada</title>
-    <link rel="stylesheet" href="./../style.css">
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./../style.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
     <script>
-        $(document).ready(function() {
-        $('.nav__toggle').on('click', function() {
-            $('.nav').toggleClass('display');
+      $(document).ready(function () {
+        $(".nav__toggle").on("click", function () {
+          $(".nav").toggleClass("display");
         });
-        $('.nav__toggle').on('click', function() {
-            $('.menu__item').toggleClass('display');
+        $(".nav__toggle").on("click", function () {
+          $(".menu__item").toggleClass("display");
         });
-        $('.nav__toggle').on('click', function() {
-            $('.menu').toggleClass('escon');
+        $(".nav__toggle").on("click", function () {
+          $(".menu").toggleClass("escon");
         });
-        });
+      });
     </script>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav class="nav">
-            <div class="nav__logo"><a href="#"><img src="./../FOTOS/Bandera_de_Granada_(Granada).svg.png" alt=""></a></div>
-            <span class="nav__toggle">
-                <span class="menu-activador-linea"></span>
-                <span class="menu-activador-linea"></span>
-                <span class="menu-activador-linea"></span>
-            </span>
-            <ul class="menu escon">
-                <li class="menu__item">
-                    <a href="./Granada.html"><b>Menu</b></a>
-                  </li>
-                <li class="menu__item">
-                    <a href="./Alhambra.html"><b>Alhambra</b></a>
-                </li>
-                <li class="menu__item">
-                    <a href="./SierraNevada.html"><b>Sierra Nevada</b></a>
-                </li>
-                <li class="menu__item">
-                    <a href="./ReyesCatolicos.html"><b>Reyes Católicos</b></a>
-                </li>
-                <li class="menu__item">
-                    <a href="./Contacto.html"><b>...</b></a>
-                </li>
-            </ul>
-        </nav>
+      <nav class="nav">
+        <div class="nav__logo">
+          <a href="#"
+            ><img src="./../FOTOS/Bandera_de_Granada_(Granada).svg.png" alt=""
+          /></a>
+        </div>
+        <span class="nav__toggle">
+          <span class="menu-activador-linea"></span>
+          <span class="menu-activador-linea"></span>
+          <span class="menu-activador-linea"></span>
+        </span>
+        <ul class="menu escon">
+          <li class="menu__item">
+            <a href="./Granada.html"><b>Menu</b></a>
+          </li>
+          <li class="menu__item">
+            <a href="./Alhambra.html"><b>Alhambra</b></a>
+          </li>
+          <li class="menu__item">
+            <a href="./SierraNevada.html"><b>Sierra Nevada</b></a>
+          </li>
+          <li class="menu__item">
+            <a href="./ReyesCatolicos.html"><b>Reyes Católicos</b></a>
+          </li>
+          <li class="menu__item">
+            <a href="./Contacto.html"><b>...</b></a>
+          </li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <section id="sn1">
-            <div id="sn1-1">
-                <h1>
-                    Escápate a la Nieve
-                </h1>
-                <p>
-                    Dejate llevar por la aventura en Sierra Nevada. Deportes de invierno, rutas panorámicas y relax en un entorno espectacular.
-                </p>
-                <a href="#" >
-                    Planifica tu viaje
-                </a>
-            </div>
-            <div id="sn1-2">
-                <a href="#" class="hov">
-                    Rutas en coche por Sierra Nevada
-                </a>
-                <a href="#" class="hov">
-                    Eventos y festividades en Sierra Nevada
-                </a>
-            </div>
-        </section>
-        <section id="sn2">
-            <div>
-                <div>
-                    <img src="./../FOTOS/sn2.jpg" alt="" class="radius">
-                </div>
-                <div id="sn2-2">
-                    <h2>
-                        Forfait
-                    </h2>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum magni sunt dignissimos quam ullam unde facilis dicta. Odit facere aut, qui minima ad ipsum architecto eum! Consectetur modi debitis quasi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, error libero eos nesciunt id repellendus qui magni numquam aut amet, nulla reiciendis corrupti exercitationem hic, nam odio ducimus enim porro!
-                    </p>
-                    <a href="#" class="hov">
-                        Adquirir
-                    </a>
-                </div>
-            </div>
-        </section>
-        <section id="sn3">
-            <div>
-                <h2 class="tamh2">
-                    Telecabina y Senderismo 
-                    <span  class="sn-span">
-                        Explorando Sierra Nevada desde las Alturas
-                    </span>
-                </h2>
-            </div>
-            <div id="galeria">
-                <div>
-                    <img src="./../FOTOS/sn3-v.jpg" alt="" class="radius">
-                </div>
-                <div>
-                    <img src="./../FOTOS/telecabina.jpg" alt="" class="radius">
-                </div>
-                <div>
-                    <img src="./../FOTOS/sn3.jpg" alt="" class="radius">
-                </div>
-            </div>
-        </section>
-        <section id="sn4">
-            <h2 class="tamh2">
-                Rutas Secretas de Sierra Nevada 
-                <span  class="sn-span">
-                    Aventuras en la Alta Montaña
-                </span>
-            </h2>
-            <div>
-                <div>
-                    <h3>
-                        Veleta
-                    </h3>
-                    <p>
-                        Esta ruta es ideal para aquellos que buscan una caminata desafiante y panorámica. Subiendo al Pico del Veleta (3,398 m), la segunda montaña más alta de Sierra Nevada, ofrece vistas espectaculares de las cumbres nevadas, el Valle de Granada y, en días despejados, hasta el mar Mediterráneo.
-                    </p>
-                    <a href="#">
-                        Comienza tu ruta al Veleta
-                    </a>
-                </div>
-                <div>
-                    <h3>
-                        Laguna de las yeguas
-                    </h3>
-                    <p>
-                        Esta ruta te llevará a una de las lagunas más hermosas de Sierra Nevada, rodeada de un paisaje de alta montaña. Es un recorrido moderado que ofrece vistas espectaculares de las cumbres nevadas y una flora y fauna únicas. La laguna, ubicada a más de 2,500 metros de altitud, es un lugar ideal para disfrutar de la tranquilidad del entorno alpino, con la posibilidad de observar aves y otros animales autóctonos.
-                    </p>
-                    <a href="#">
-                        Iniciar ruta
-                    </a>
-                </div>
-                <div>
-                    <h3>
-                        Mulhacen
-                    </h3>
-                    <p>
-                        Para los más aventureros, la subida al Mulhacén, el pico más alto de la península ibérica (3,479 m), es una experiencia inigualable. La ruta te llevará a través de paisajes impresionantes de alta montaña, desde praderas alpinas hasta los rocosos picos nevados, ofreciendo vistas panorámicas de toda la Sierra Nevada.
-                    </p>
-                    <a href="#">
-                        Visita el Mulhacen
-                    </a>
-                </div>
-            </div>
-        </section>
-        <section id="sn5">
-            <div>
-                <h2 class="tamh2">
-                    Descubre el Mejor Momento para Visitar Sierra Nevada
-                    <span class="sn-span">
-                        Guía para Disfrutar al Máximo de Este Paraíso Natural
-                    </span>
-                </h2>
-                <p>
-                    Sierra Nevada, con su imponente belleza y paisajes variados, es un destino perfecto para los amantes de la naturaleza, el senderismo, los deportes de nieve y las vistas panorámicas. Sin embargo, la mejor época para visitarla depende de lo que busques. Si eres un aficionado al esquí o snowboard, los meses más fríos, de diciembre a abril, son ideales para disfrutar de las estaciones de esquí, con nieve abundante y pistas preparadas. Por otro lado, si prefieres el senderismo, el verano, de junio a septiembre, ofrece un clima más templado y accesible para explorar sus senderos y cumbres sin el riesgo de la nieve. Ya sea para practicar deportes de invierno o explorar la flora y fauna en su máxima expresión, Sierra Nevada tiene algo especial durante todo el año.
-                </p>
-            </div>
-            <div>
-                <img src="./../FOTOS/sn5.jpg" alt="" class="radius">
-            </div>
-        </section>
+      <section id="sn1">
+        <div id="sn1-1">
+          <h1>Escápate a la Nieve</h1>
+          <p>
+            Dejate llevar por la aventura en Sierra Nevada. Deportes de
+            invierno, rutas panorámicas y relax en un entorno espectacular.
+          </p>
+          <a href="#"> Planifica tu viaje </a>
+        </div>
+        <div id="sn1-2">
+          <a href="#" class="hov"> Rutas en coche por Sierra Nevada </a>
+          <a href="#" class="hov"> Eventos y festividades en Sierra Nevada </a>
+        </div>
+      </section>
+      <section id="sn2">
+        <div>
+          <div>
+            <img src="./../FOTOS/sn2.jpg" alt="" class="radius" />
+          </div>
+          <div id="sn2-2">
+            <h2>Forfait</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+              magni sunt dignissimos quam ullam unde facilis dicta. Odit facere
+              aut, qui minima ad ipsum architecto eum! Consectetur modi debitis
+              quasi. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Commodi, error libero eos nesciunt id repellendus qui magni
+              numquam aut amet, nulla reiciendis corrupti exercitationem hic,
+              nam odio ducimus enim porro!
+            </p>
+            <a href="#" class="hov"> Adquirir </a>
+          </div>
+        </div>
+      </section>
+      <section id="sn3">
+        <div>
+          <h2 class="tamh2">
+            Telecabina y Senderismo
+            <span class="sn-span">
+              Explorando Sierra Nevada desde las Alturas
+            </span>
+          </h2>
+        </div>
+        <div id="galeria">
+          <div>
+            <img src="./../FOTOS/sn3-v.jpg" alt="" class="radius" />
+          </div>
+          <div>
+            <img src="./../FOTOS/telecabina.jpg" alt="" class="radius" />
+          </div>
+          <div>
+            <img src="./../FOTOS/sn3.jpg" alt="" class="radius" />
+          </div>
+        </div>
+      </section>
+      <section id="sn4">
+        <h2 class="tamh2">
+          Rutas Secretas de Sierra Nevada
+          <span class="sn-span"> Aventuras en la Alta Montaña </span>
+        </h2>
+        <div>
+          <div>
+            <h3>Veleta</h3>
+            <p>
+              Esta ruta es ideal para aquellos que buscan una caminata
+              desafiante y panorámica. Subiendo al Pico del Veleta (3,398 m), la
+              segunda montaña más alta de Sierra Nevada, ofrece vistas
+              espectaculares de las cumbres nevadas, el Valle de Granada y, en
+              días despejados, hasta el mar Mediterráneo.
+            </p>
+            <a href="#"> Comienza tu ruta al Veleta </a>
+          </div>
+          <div>
+            <h3>Laguna de las yeguas</h3>
+            <p>
+              Esta ruta te llevará a una de las lagunas más hermosas de Sierra
+              Nevada, rodeada de un paisaje de alta montaña. Es un recorrido
+              moderado que ofrece vistas espectaculares de las cumbres nevadas y
+              una flora y fauna únicas. La laguna, ubicada a más de 2,500 metros
+              de altitud, es un lugar ideal para disfrutar de la tranquilidad
+              del entorno alpino, con la posibilidad de observar aves y otros
+              animales autóctonos.
+            </p>
+            <a href="#"> Iniciar ruta </a>
+          </div>
+          <div>
+            <h3>Mulhacen</h3>
+            <p>
+              Para los más aventureros, la subida al Mulhacén, el pico más alto
+              de la península ibérica (3,479 m), es una experiencia inigualable.
+              La ruta te llevará a través de paisajes impresionantes de alta
+              montaña, desde praderas alpinas hasta los rocosos picos nevados,
+              ofreciendo vistas panorámicas de toda la Sierra Nevada.
+            </p>
+            <a href="#"> Visita el Mulhacen </a>
+          </div>
+        </div>
+      </section>
+      <section id="sn5">
+        <div>
+          <h2 class="tamh2">
+            Descubre el Mejor Momento para Visitar Sierra Nevada
+            <span class="sn-span">
+              Guía para Disfrutar al Máximo de Este Paraíso Natural
+            </span>
+          </h2>
+          <p>
+            Sierra Nevada, con su imponente belleza y paisajes variados, es un
+            destino perfecto para los amantes de la naturaleza, el senderismo,
+            los deportes de nieve y las vistas panorámicas. Sin embargo, la
+            mejor época para visitarla depende de lo que busques. Si eres un
+            aficionado al esquí o snowboard, los meses más fríos, de diciembre a
+            abril, son ideales para disfrutar de las estaciones de esquí, con
+            nieve abundante y pistas preparadas. Por otro lado, si prefieres el
+            senderismo, el verano, de junio a septiembre, ofrece un clima más
+            templado y accesible para explorar sus senderos y cumbres sin el
+            riesgo de la nieve. Ya sea para practicar deportes de invierno o
+            explorar la flora y fauna en su máxima expresión, Sierra Nevada
+            tiene algo especial durante todo el año.
+          </p>
+        </div>
+        <div>
+          <img src="./../FOTOS/sn5.jpg" alt="" class="radius" />
+        </div>
+      </section>
     </main>
     <footer>
-        <div id="ft1">
-            <div id="ft1-1">
-                <ul>
-                    <li>
-                        <h2>
-                            Sobre Nosotros
-                        </h2>
-                    </li>
-                    <li>
-                        <a href="#">
-                            Qiénes Somos
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            Opiniones de Clientes
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            Nuestra Historia
-                        </a>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        <h2>
-                            Descubre Granada
-                        </h2>
-                    </li>
-                    <li>
-                        <a href="./Alhambra.html">
-                            Alhambra
-                        </a>
-                    </li>
-                    <li>
-                        <a href="./SierraNevada.html">
-                            Sierra Nevada
-                        </a>
-                    </li>
-                    <li>
-                        <a href="./ReyesCatolicos.html">
-                            Reyes Católicos
-                        </a>
-                    </li>
-                    <li>
-                        <a href="./Contacto.html">
-                            Otros lugares
-                        </a>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        <h2>
-                            Nuestros Servicios
-                        </h2>
-                    </li>
-                    <li>
-                        <a href="#">
-                            Visitas Guiadas
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            Excursiones Personalizadas
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            Reservas de Alojamientos
-                        </a>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        <h2>
-                            Contacto
-                        </h2>
-                    </li>
-                    <li>
-                        <a href="#">
-                            Atención al Cliente
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            Preguntas Frecuentes
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            Términos y condiciones
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div >
-                <ul id="redes">
-                    <li>
-                        <a href="#">
-                            <img src="./../FOTOS/gorjeo.png" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="./../FOTOS/instagram.png" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="./../FOTOS/logotipo-de-whatsapp.png" alt="">
-                        </a>
-                    </li>
-                </ul>
-            </div>
+      <div id="ft1">
+        <div id="ft1-1">
+          <ul>
+            <li>
+              <h2>Sobre Nosotros</h2>
+            </li>
+            <li>
+              <a href="#"> Qiénes Somos </a>
+            </li>
+            <li>
+              <a href="#"> Opiniones de Clientes </a>
+            </li>
+            <li>
+              <a href="#"> Nuestra Historia </a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <h2>Descubre Granada</h2>
+            </li>
+            <li>
+              <a href="./Alhambra.html"> Alhambra </a>
+            </li>
+            <li>
+              <a href="./SierraNevada.html"> Sierra Nevada </a>
+            </li>
+            <li>
+              <a href="./ReyesCatolicos.html"> Reyes Católicos </a>
+            </li>
+            <li>
+              <a href="./Contacto.html"> Otros lugares </a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <h2>Nuestros Servicios</h2>
+            </li>
+            <li>
+              <a href="#"> Visitas Guiadas </a>
+            </li>
+            <li>
+              <a href="#"> Excursiones Personalizadas </a>
+            </li>
+            <li>
+              <a href="#"> Reservas de Alojamientos </a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <h2>Contacto</h2>
+            </li>
+            <li>
+              <a href="#"> Atención al Cliente </a>
+            </li>
+            <li>
+              <a href="#"> Preguntas Frecuentes </a>
+            </li>
+            <li>
+              <a href="#"> Términos y condiciones </a>
+            </li>
+          </ul>
         </div>
-        <div id="ft2">
-            <p>
-                © 2025 Granada
-            </p>
+        <div>
+          <ul id="redes">
+            <li>
+              <a href="#">
+                <img src="./../FOTOS/gorjeo.png" alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="./../FOTOS/instagram.png" alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="./../FOTOS/logotipo-de-whatsapp.png" alt="" />
+              </a>
+            </li>
+          </ul>
         </div>
-    </footer>   
-</body>
+      </div>
+      <div id="ft2">
+        <p>© 2025 Granada</p>
+      </div>
+    </footer>
+  </body>
 </html>
